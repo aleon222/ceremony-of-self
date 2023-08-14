@@ -1,0 +1,249 @@
+body{
+    background-color: #FDFBEF;
+    padding-bottom: 2vh;
+    cursor: pointer;
+}
+
+h1{
+    color: #785C8D;
+    max-width: 85vw;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 3.33rem;
+    font-family: halyard-display, sans-serif;
+    font-style: normal !important;
+    font-weight: 800;
+    letter-spacing: .05em;
+}
+
+h2{
+    color: #174D2A;
+    text-align:center;
+    font-family: bely, serif;
+    margin-top: .55vh !important;
+}
+#form_description{
+    width:60vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 3%;
+}
+#form_description p{
+    text-align:center;
+    font-family: bely, serif;
+    color: #174D2A;
+}
+#form_description a{
+    color:#785C8D;
+}
+p{
+    text-align: left;
+    color: #785C8D;
+    font-size: 16px;
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+}
+
+fieldset{
+    border:none;
+}
+
+
+input, textarea{
+    color: #F1EAF6;
+    box-sizing: border-box;
+}
+
+    
+    input:focus, textarea:focus, select:focus {
+    outline-offset: 0px !important;
+    outline: none !important;
+    }
+
+.intake textarea{
+    width: 50%;
+}
+
+
+fieldset#form_intake{
+    background-color: #DBC2D8;
+    border-radius: 19px;
+    padding-bottom: 2%;
+    width:35%;
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+#form_intake label{
+    margin: 2% 0 0 .5% !important;
+    color: #2F2C68;
+    width: 85%;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    display:block;
+    font-size: 16px;
+    font-family: bely, serif;
+    font-style: italic;
+}
+#form_intake a{
+    color: #2F2C68;
+}
+input#name, input#email, input#month-year, select#moon, input#location{
+    width: 70%;
+    margin: .25% 0 0 .5%;
+    border: solid 2px #E0E0E4;
+    border-radius: 19px; 
+    background-color: #fff;
+    color: #6A81B4;
+    font-size: 13px;
+}
+select#moon{
+    width: 50% !important;
+}
+
+fieldset#core_form{
+    margin-top: 30px;
+}
+
+#core_form label{
+    color: #2B2B6C;
+    display: block;
+    margin: 1.85% 5% 1% 6%;
+    display:block;
+    font-size: 16px;
+    font-family: bely, serif;
+    font-style: italic;
+}
+#core_form a{
+    color: #174D2A;
+}
+.questionBox{
+    background-color: #F1EAF6;
+    border: solid 3px #DBC2D8;
+    border-radius: 35px;
+    margin-bottom: 6%;
+    width: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+textarea#last_dream_cont, textarea#practices, textarea#surrender, textarea#safety, textarea#nightmare, textarea#life_dream{
+    color: #174D2A;
+    width: 90%;
+    background:none;
+    border: 0;
+    display:block;
+    margin-bottom: 3%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 2%;
+    font-size: 14px;
+}
+
+#core_form {}
+
+.quote{
+    border: solid 1px #174D2A;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 1.75% .5% 1.75% 2%;
+    margin-bottom: 2.65%;
+}
+.quote p{
+    font-size: 16px;
+    margin-top: 0;
+    font-family: bely, serif;
+    font-style: italic;
+    color: #174D2A;
+}
+.qSource{
+    margin-bottom: 0;
+}
+
+/* Question 1*/
+#last_dream_container{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+label#ldYN{
+    margin: 1.85% 0 1% 26% !important;
+}
+select#last_dream{
+    margin: .25% 0 0 .5%;
+    border-radius: 19px; 
+    background-color: #DBC2D8;
+    color: #2B2B6C;
+    font-size: 13px;
+    padding-left: 1%;
+}
+
+
+/* Question 2*/
+#practices_container{
+    margin-left: 0 !important;
+}
+img#saprophytes{
+    width: 26.5%;
+    height: auto;
+    position:absolute;
+    right: 10%;
+    margin-top: -4%;
+    transform: rotate(-6.66deg);
+
+}
+
+/* Question 3*/
+#annikaQ_group img{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    margin-top: -1.85%;
+    left: 20%;
+    transform: rotate(12deg);
+}
+#annikaQ_group .quote{
+    width: 52%;
+    margin-left: 50%;
+}
+#safety_container{
+    margin-left: 10% !important;
+}
+
+/* Question 4*/
+#ayanaQ_group img{
+    width: 30%;
+    height: auto;
+    position:absolute;
+    right: 3%;
+    margin-top: 2.5%;
+    transform: rotate(-11.5deg);
+}
+
+#ayanaQ_group .quote{
+    width: 68%;
+    margin-left: 0 !important;
+}
+#surrender_container{
+    margin-left: 40%;
+}
+
+
+input[type=submit] {
+	display: block;
+	margin:auto;
+	font-size: 16px;
+    border-radius: 19px; 
+    background-color: #DBC2D8;
+	color: #2B2B6C;
+	border-color: #F1EAF6;
+	max-width: 500px;
+    padding: .35vh 1vw;
+}
