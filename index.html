@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>ceremony of self</title>
+        <title>Ceremony of Self</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://use.typekit.net/bms1qyc.css">
         <link rel="icon" type="image/x-icon" href="tree-stump.png">
@@ -10,7 +10,7 @@
     </head>
 
     <body>
-        <h1>ceremony of self</h1>
+        <h1>Ceremony of Self</h1>
         <h2>questions from black femme and queer dreamers</h2>
 
         <!-- add background #636297 border solid 4px #E0E0E4, radius 47 -->
@@ -25,36 +25,38 @@
 
         </div>
         
-        <form id="survey-form">
+        <form id="survey-form" 
+        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSco3QK6c9399tao1mS9GKInQuWwJ90esaDyuVz6islrT_NUzQ/formResponse">
             
             <!--personal information-->
             <fieldset id="form_intake">
                 <label for="name">Name
-                    <input type="text" id="name" class="intake" required>
+                    <input type="text" id="name" class="intake" name="entry.724118833" required>
                 </label>
 
                 <label for="email">Email
-                    <input type="email" id="email" class="intake" required>
+                    <input type="email" id="email" class="intake" name="entry.1216120451" required>
                 </label>
 
                 <label for="month-year">Date
-                    <input type="month" id="month-year" class="intake" required>
+                    <input type="month" id="month-year" class="intake" name="entry.300189452" required>
                 </label>
                 
                 <label for="moon"><a href="https://www.moonconnection.com/current_moon_phase.phtml" target="_blank">Moon Phase</a>
-                    <select name="moon-phase" id="moon" required>
-                        <option value="new">New Moon</option>
-                        <option value="wxC">Waxing Crescent</option>
-                        <option value="1Q">First Quarter</option>
-                        <option value="wxG">Waxing Gibbous</option>
-                        <option value="full">Full Moon</option>
-                        <option value="wnG">Waning Gibbous</option>
-                        <option value="3Q">Third Quarter</option>
-                        <option value="wnC">Waning Crescent</option>
+                    <select name="entry.26245491" id="moon" required>
+                        <option value="select" selected disabled>Select</option> 
+                        <option value="New Moon">New Moon</option>
+                        <option value="Waxing Crescent">Waxing Crescent</option>
+                        <option value="First Quarter">First Quarter</option>
+                        <option value="Waxing Gibbous">Waxing Gibbous</option>
+                        <option value="Full Moon">Full Moon</option>
+                        <option value="Waning Gibbous">Waning Gibbous</option>
+                        <option value="Third Quarter">Third Quarter</option>
+                        <option value="Waning Crescent">Waning Crescent</option>
                     </select>
                 </label>
                 <label for="location">Location
-                    <input type="text" id="location" class="intake">
+                    <input name="entry.2017248623" type="text" id="location" class="intake">
                 </label>
             </fieldset>
 
@@ -62,15 +64,16 @@
                 <!--Question 1a and 1b-->
                 <div id="last_dream_container">
                     <label id="ldYN" for="last_dream">Do you remember your last dream?
-                        <select name="remember" id="last_dream" required>
-                            <option value="yes">Yes</option>
-                            <option value="eh">Kinda</option>
-                            <option value="no">No</option>
+                        <select name="entry.2019533462" id="last_dream" required>
+                            <option value="select" selected disabled>Select</option>
+                            <option value="Yes">Yes</option>
+                            <option value="Kinda">Kinda</option>
+                            <option value="No">No</option>
                         </select>
                     </label>
                     <div class="questionBox">
                         <label for="last_dream_cont">If so, what do you remember from it?</label>
-                        <textarea id="last_dream_cont" cols="35" rows="7"></textarea>
+                        <textarea name="entry.1864415433" id="last_dream_cont" cols="35" rows="7"></textarea>
                     </div>
                 </div>
 
@@ -78,7 +81,7 @@
                 <img id="saprophytes" src="saprophytes.png"  alt="scrapbook cutout of saprophytes growing from a tree" title="saprophytes growing from a tree">
                 <div class="questionBox" id="practices_container">
                     <label for="practices">What are your daily and weekly practices that keep you accountable to your needs?</label>
-                    <textarea id="practices" cols="35" rows="7"></textarea>
+                    <textarea name="entry.1066566452" id="practices" cols="35" rows="7"></textarea>
                 </div>
 
                 <!--Question 3-->
@@ -93,7 +96,7 @@
                     </div>
                     <div class="questionBox" id="safety_container">
                         <label for="safety">How can you be a source of safety for yourself?</label>
-                        <textarea id="safety" cols="35" rows="7"></textarea>
+                        <textarea name="entry.1344961940" id="safety" cols="35" rows="7"></textarea>
                     </div>
                 </div>
 
@@ -110,14 +113,14 @@
 
                     <div class="questionBox" id="surrender_container">
                         <label for="surrender">What do you surrender to?</label>
-                        <textarea id="surrender" cols="35" rows="7"></textarea>
+                        <textarea name="entry.1278753981" id="surrender" cols="35" rows="7"></textarea>
                     </div>
                 </div>
 
                 <!--Question 5-->
                 <div class="questionBox">
                     <label for="life_dream">What do you dream about for this life? For yourself, your friends, family, neighbors?</label>
-                    <textarea id="life_dream" cols="35" rows="7"></textarea>
+                    <textarea name="entry.411501138" id="life_dream" cols="35" rows="7"></textarea>
                 </div>
 
             </fieldset>
