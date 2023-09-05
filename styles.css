@@ -26,12 +26,15 @@ h2{
 }
 
 @media only screen 
-  and (min-device-width: 375px) 
+  and (min-device-width: 374px) 
   and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  { 
     #form_description{
-        width:75vw;
+       min-width:75vw !important;
     }
+    #form_description p{
+        font-size: 14px !important;
+     }
 }
 #form_description{
     width:60vw;
