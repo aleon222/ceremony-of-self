@@ -24,6 +24,15 @@ h2{
     font-family: bely, serif;
     margin-top: .55vh !important;
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    #form_description{
+        width:75vw;
+    }
+}
 #form_description{
     width:60vw;
     margin-left:auto;
